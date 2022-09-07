@@ -65,8 +65,6 @@ function CartScreen() {
   } = useForm();
 
   // отправка отзыва на сервер
-  const [loading, setLoading] = useState(false);
-
   const submitHandler = async ({
     name,
     phone,
@@ -76,7 +74,6 @@ function CartScreen() {
     isPrivatePolicy,
   }) => {
     try {
-      setLoading(true);
       await axios.post('/api/orders', {
         name,
         phone,
@@ -87,10 +84,8 @@ function CartScreen() {
         totalOrder,
         cartItems,
       });
-      setLoading(false);
       setModalResponse(true);
     } catch (err) {
-      setLoading(false);
       toast.error(`Ошибка: ${err}`);
       console.log(err);
     }
@@ -117,6 +112,7 @@ function CartScreen() {
       mask: '+{7} (000) 000-00-00',
     };
     let mask = new IMask(element, maskOptions);
+    console.log(mask);
   };
 
   return (

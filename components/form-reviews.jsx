@@ -26,10 +26,8 @@ export default function FormReviews() {
   } = useForm();
 
   // отправка отзыва на сервер
-  const [loading, setLoading] = useState(false);
   const submitHandler = async ({ name, message, bind }) => {
     try {
-      setLoading(true);
       await axios.post('/api/reviews', {
         bind,
         name,
@@ -38,10 +36,8 @@ export default function FormReviews() {
         // images: [{ image: { file } }],
         // date: dateReview,
       });
-      setLoading(false);
       setModalResponse(true);
     } catch (err) {
-      setLoading(false);
       toast.error(`Ошибка: ${err}`);
     }
   };

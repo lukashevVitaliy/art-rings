@@ -24,20 +24,16 @@ export default function RingsToOrder() {
   } = useForm();
 
   // отправка отзыва на сервер
-  const [loading, setLoading] = useState(false);
   const submitHandler = async ({ name, email, phone, comment }) => {
     try {
-      setLoading(true);
       await axios.post('/api/estimate', {
         name,
         email,
         phone,
         comment,
       });
-      setLoading(false);
       setModalResponse(true);
     } catch (err) {
-      setLoading(false);
       console.log(err);
     }
   };
@@ -59,6 +55,7 @@ export default function RingsToOrder() {
       mask: '+{7} (000) 000-00-00',
     };
     let mask = new IMask(element, maskOptions);
+    console.log(mask);
   };
 
   return (
