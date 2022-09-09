@@ -3,7 +3,7 @@ import db from '../../../utils/db';
 
 const handler = async (req, res) => {
   await db.connect();
-  const ring = await Ring.findById(req.query.id);
+  const ring = await Ring.findById(req.query.articule);
   await db.disconnect();
   res.send(ring);
 };
