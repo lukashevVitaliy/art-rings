@@ -50,6 +50,15 @@ const reducer = (state, action) => {
         favorites: { ...state.favorites, favoritesItems },
       };
     }
+    case 'FAVORITES_DEL_ITEM': {
+      const favoritesItems = state.favorites.favoritesItems.filter(
+        (item) => item.articule !== action.payload.articule
+      );
+      return {
+        ...state,
+        favorites: { ...state.favorites, favoritesItems },
+      };
+    }
     case 'FAVORITES_RESET': {
       return {
         ...state,

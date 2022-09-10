@@ -30,7 +30,7 @@ export default function Layout({ title, children }) {
         <meta name="description" content="Ecommerce Website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ToastContainer autoClose={3000} limit={1} />
+      <ToastContainer autoClose={600} limit={1} />
       <div className="flex min-h-screen flex-col justify-between">
         <header>
           <HeaderLevel_1 />

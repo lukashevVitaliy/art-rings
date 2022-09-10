@@ -64,28 +64,31 @@ const SliderWorkExamples = () => {
       <SwiperSlide className="flex justify-center mb-5">
         <Image
           src={'/assets/image/example-rings/example-420x420_3.jpg'}
+          blurDataURL={'/assets/image/example-rings/example-420x420_3.jpg'}
           width={420}
           height={420}
           alt="example ring"
-          priority
+          placeholder="blur"
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center mb-5">
         <Image
           src={'/assets/image/example-rings/example-420x420_4.jpg'}
+          blurDataURL={'/assets/image/example-rings/example-420x420_4.jpg'}
           width={420}
           height={420}
           alt="example ring"
-          priority
+          placeholder="blur"
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center mb-5">
         <Image
           src={'/assets/image/example-rings/example-420x420_5.jpg'}
+          blurDataURL={'/assets/image/example-rings/example-420x420_5.jpg'}
           width={420}
           height={420}
           alt="example ring"
-          priority
+          placeholder="blur"
         />
       </SwiperSlide>
     </Swiper>

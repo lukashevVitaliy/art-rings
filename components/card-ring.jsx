@@ -9,7 +9,7 @@ import { MdFiberNew } from 'react-icons/md';
 import { motion } from 'framer-motion';
 
 export default function CardRing({ ring, rings }) {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState('');
   const { dispatch } = useContext(Store);
 
   const {
@@ -35,8 +35,13 @@ export default function CardRing({ ring, rings }) {
 
   const handlerClickRing = (articule) => {
     const ringsItems = rings.find((x) => x.articule === articule);
-    dispatch({ type: 'FAVORITES_ADD_ITEM', payload: ringsItems });
-    setActive(!active);
+    if (!active) {
+      dispatch({ type: 'FAVORITES_ADD_ITEM', payload: ringsItems });
+      setActive(!active);
+    } else if (active) {
+      dispatch({ type: 'FAVORITES_DEL_ITEM', payload: ringsItems });
+      setActive(!active);
+    }
   };
 
   return (
@@ -86,7 +91,7 @@ export default function CardRing({ ring, rings }) {
         </a>
       </Link>
       <button
-        className="absolute bottom-5 left-5"
+        className="absolute bottom-0 left-0 p-5"
         onClick={() => handlerClickRing(articule)}
       >
         <BsFillHeartFill

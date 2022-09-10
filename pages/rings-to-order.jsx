@@ -63,7 +63,7 @@ export default function RingsToOrder() {
       <Breadcrumbs title="На заказ" path={'/rings-to-order'} />
       <div
         className="w-full bg-center bg-no-repeat bg-cover scroll-smooth"
-        style={{ backgroundImage: "url('/assets/bg/order_bg.jpg')" }}
+        style={{ backgroundImage: "url('/assets/bg/order_c_bg.jpg')" }}
       >
         <div className="container mx-auto px-4 py-6 sm:py-12 md:py-24 lg:py-48">
           <div className="w-2/3 md:w-1/2">
@@ -215,7 +215,7 @@ export default function RingsToOrder() {
               </div>
               <div className="col-start-1 col-end-5 lg:col-start-3 lg:col-end-5 lg:mt-5">
                 <button
-                  className="upload-btn relative py-2 border border w-full flex items-center justify-center bg-gray-200 hover:bg-gray-400 transition-all"
+                  className="upload-btn relative py-2 border w-full flex items-center justify-center bg-gray-200 hover:bg-gray-400 transition-all"
                   type="button"
                 >
                   <Image

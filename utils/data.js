@@ -6,13 +6,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/019/019-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/019/019-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/019/019-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/019/019-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/019/019-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/019/019-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -25,13 +25,13 @@ const data = {
       rating: '4',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/019/019-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/019/019-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/019/019-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/019/019-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/019/019-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/019/019-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -44,13 +44,13 @@ const data = {
       rating: '3',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/020/020-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/020/020-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/020/020-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/020/020-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/020/020-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/020/020-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -63,13 +63,13 @@ const data = {
       rating: '4',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/020/020-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/020/020-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/020/020-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/020/020-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/020/020-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/020/020-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -82,13 +82,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/021/021-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/021/021-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/021/021-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/021/021-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/021/021-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/021/021-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -101,13 +101,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/021/021-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/021/021-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/021/021-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/021/021-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/021/021-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/021/021-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -120,13 +120,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/028/028-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/028/028-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/028/028-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/028/028-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/028/028-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/028/028-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -139,13 +139,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/028/028-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/028/028-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/028/028-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/028/028-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/028/028-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/028/028-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -158,13 +158,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/030/030-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/030/030-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/030/030-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/030/030-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/030/030-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/030/030-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -177,13 +177,13 @@ const data = {
       rating: '5',
       // images: [
       //   {
-      //     image: '/assets/image/rings/wedding/030/030-s-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/030/030-s-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/030/030-b-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/030/030-b-690x690.jpg',
       //   },
       //   {
-      //     image: '/assets/image/rings/wedding/030/030-g-1270x1270.jpg',
+      //     image: '/assets/image/rings/wedding/030/030-g-690x690.jpg',
       //   },
       // ],
       message:
@@ -208,13 +208,13 @@ const data = {
       noveltie: true,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/019/019-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/019/019-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/019/019-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/019/019-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/019/019-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/019/019-g-690x690.jpg',
         },
       ],
       features: {
@@ -240,13 +240,13 @@ const data = {
       noveltie: true,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/020/020-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/020/020-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/020/020-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/020/020-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/020/020-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/020/020-g-690x690.jpg',
         },
       ],
       features: {
@@ -272,13 +272,13 @@ const data = {
       noveltie: true,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/021/021-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/021/021-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/021/021-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/021/021-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/021/021-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/021/021-g-690x690.jpg',
         },
       ],
       features: {
@@ -304,13 +304,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/028/028-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/028/028-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/028/028-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/028/028-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/028/028-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/028/028-g-690x690.jpg',
         },
       ],
       features: {
@@ -336,13 +336,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/030/030-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/030/030-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/030/030-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/030/030-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/030/030-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/030/030-g-690x690.jpg',
         },
       ],
       features: {
@@ -368,13 +368,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/031/031-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/031/031-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/031/031-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/031/031-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/031/031-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/031/031-g-690x690.jpg',
         },
       ],
       features: {
@@ -400,13 +400,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/032/032-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/032/032-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/032/032-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/032/032-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/032/032-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/032/032-g-690x690.jpg',
         },
       ],
       features: {
@@ -432,13 +432,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/032/032-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/032/032-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/032/032-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/032/032-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/032/032-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/032/032-g-690x690.jpg',
         },
       ],
       features: {
@@ -464,19 +464,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/034/034-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/034/034-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/034/034-b1s2-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/034/034-b1s2-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/034/034-g1s2-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/034/034-g1s2-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/034/034-b2s1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/034/034-b2s1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/034/034-g2s1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/034/034-g2s1-690x690.jpg',
         },
       ],
       features: {
@@ -502,13 +502,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/036/036-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/036/036-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/036/036-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/036/036-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/036/036-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/036/036-g-690x690.jpg',
         },
       ],
       features: {
@@ -534,13 +534,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/038/038-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/038/038-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/038/038-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/038/038-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/038/038-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/038/038-g-690x690.jpg',
         },
       ],
       features: {
@@ -565,13 +565,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/047/047-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/047/047-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/047/047-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/047/047-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/047/047-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/047/047-g-690x690.jpg',
         },
       ],
       features: {
@@ -597,13 +597,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/049/049-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/049/049-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/049/049-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/049/049-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/049/049-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/049/049-g-690x690.jpg',
         },
       ],
       features: {
@@ -629,25 +629,25 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/061/061-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/061/061-s2g1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-s2g1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/061/061-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-g-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/061/061-s2b1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-s2b1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/061/061-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/061/061-g2s1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-g2s1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/061/061-b2s1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/061/061-b2s1-690x690.jpg',
         },
       ],
       features: {
@@ -673,13 +673,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/063/063-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/063/063-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/063/063-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/063/063-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/063/063-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/063/063-g-690x690.jpg',
         },
       ],
       features: {
@@ -705,13 +705,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/095/095-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/095/095-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/095/095-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/095/095-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/095/095-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/095/095-g-690x690.jpg',
         },
       ],
       features: {
@@ -737,13 +737,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/096/096-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/096/096-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/096/096-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/096/096-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/096/096-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/096/096-g-690x690.jpg',
         },
       ],
       features: {
@@ -769,16 +769,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/097/097-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/097/097-sg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/097/097-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/097/097-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/097/097-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/097/097-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/097/097-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/097/097-sb-690x690.jpg',
         },
       ],
       features: {
@@ -804,13 +804,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/098/098-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/098/098-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/098/098-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/098/098-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/098/098-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/098/098-g-690x690.jpg',
         },
       ],
       features: {
@@ -836,16 +836,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/099/099-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/099/099-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/099/099-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/099/099-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/099/099-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/099/099-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/099/099-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/099/099-sg-690x690.jpg',
         },
       ],
       features: {
@@ -871,16 +871,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/100/100-bg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/100/100-bg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/100/100-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/100/100-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/100/100-wg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/100/100-wg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/100/100-ws-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/100/100-ws-690x690.jpg',
         },
       ],
       features: {
@@ -906,17 +906,17 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/101/101-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/101/101-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/101/101-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/101/101-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/101/101-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/101/101-g-690x690.jpg',
         },
 
         {
-          image: '/assets/image/rings/wedding/101/101-s2-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/101/101-s2-690x690.jpg',
         },
       ],
       features: {
@@ -942,13 +942,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/102/102-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/102/102-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/102/102-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/102/102-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/102/102-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/102/102-g-690x690.jpg',
         },
       ],
       features: {
@@ -974,19 +974,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/103/103-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/103/103-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/103/103-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/103/103-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/103/103-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/103/103-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/103/103-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/103/103-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/103/103-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/103/103-sg-690x690.jpg',
         },
       ],
       features: {
@@ -1012,19 +1012,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/107/107-sss-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/107/107-sss-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/107/107-bsb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/107/107-bsb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/107/107-gsg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/107/107-gsg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/107/107-sbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/107/107-sbs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/107/107-sgs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/107/107-sgs-690x690.jpg',
         },
       ],
       features: {
@@ -1050,19 +1050,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/108/108-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/108/108-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/108/108-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/108/108-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/108/108-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/108/108-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/108/108-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/108/108-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/108/108-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/108/108-sg-690x690.jpg',
         },
       ],
       features: {
@@ -1088,13 +1088,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/109/109-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/109/109-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/109/109-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/109/109-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/109/109-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/109/109-g-690x690.jpg',
         },
       ],
       features: {
@@ -1120,13 +1120,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/110/110-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/110/110-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/110/110-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/110/110-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/110/110-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/110/110-g-690x690.jpg',
         },
       ],
       features: {
@@ -1152,19 +1152,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/111/111-sbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/111/111-sbs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/111/111-bsb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/111/111-bsb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/111/111-gsg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/111/111-gsg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/111/111-sgs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/111/111-sgs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/111/111-sss-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/111/111-sss-690x690.jpg',
         },
       ],
       features: {
@@ -1190,19 +1190,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/112/112-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/112/112-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/112/112-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/112/112-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/112/112-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/112/112-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/112/112-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/112/112-sg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/112/112-ss-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/112/112-ss-690x690.jpg',
         },
       ],
       features: {
@@ -1228,25 +1228,25 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/113/113-bsBb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-bsBb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/113/113-bsBg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-bsBg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/113/113-gsBb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-gsBb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/113/113-gsBg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-gsBg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/113/113-sbBs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-sbBs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/113/113-sgBs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-sgBs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/113/113-ssBs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/113/113-ssBs-690x690.jpg',
         },
       ],
       features: {
@@ -1272,16 +1272,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/114/114-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/114/114-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/114/114-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/114/114-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/114/114-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/114/114-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/114/114-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/114/114-sg-690x690.jpg',
         },
       ],
       features: {
@@ -1307,19 +1307,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/115/115-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/115/115-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/115/115-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/115/115-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/115/115-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/115/115-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/115/115-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/115/115-sg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/115/115-ss-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/115/115-ss-690x690.jpg',
         },
       ],
       features: {
@@ -1345,13 +1345,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/116/116-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/116/116-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/116/116-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/116/116-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/116/116-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/116/116-g-690x690.jpg',
         },
       ],
       features: {
@@ -1377,16 +1377,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/117/117-bsbsb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/117/117-bsbsb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/117/117-gsgsg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/117/117-gsgsg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/117/117-sbsbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/117/117-sbsbs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/117/117-sgsgs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/117/117-sgsgs-690x690.jpg',
         },
       ],
       features: {
@@ -1412,16 +1412,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/118/118-bsb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/118/118-bsb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/118/118-gsg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/118/118-gsg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/118/118-sbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/118/118-sbs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/118/118-sgs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/118/118-sgs-690x690.jpg',
         },
       ],
       features: {
@@ -1447,13 +1447,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/119/119-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/119/119-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/119/119-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/119/119-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/119/119-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/119/119-g-690x690.jpg',
         },
       ],
       features: {
@@ -1479,13 +1479,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/120/120-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/120/120-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/120/120-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/120/120-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/120/120-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/120/120-g-690x690.jpg',
         },
       ],
       features: {
@@ -1511,13 +1511,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/121/121-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/121/121-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/121/121-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/121/121-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/121/121-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/121/121-g-690x690.jpg',
         },
       ],
       features: {
@@ -1543,16 +1543,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/122/122-bsb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/122/122-bsb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/122/122-gsg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/122/122-gsg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/122/122-sbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/122/122-sbs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/122/122-sgs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/122/122-sgs-690x690.jpg',
         },
       ],
       features: {
@@ -1578,13 +1578,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/123/123-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/123/123-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/123/123-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/123/123-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/123/123-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/123/123-g-690x690.jpg',
         },
       ],
       features: {
@@ -1610,13 +1610,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/124/124-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/124/124-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/124/124-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/124/124-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/124/124-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/124/124-g-690x690.jpg',
         },
       ],
       features: {
@@ -1642,13 +1642,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/125/125-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/125/125-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/125/125-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/125/125-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/125/125-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/125/125-g-690x690.jpg',
         },
       ],
       features: {
@@ -1674,13 +1674,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/126/126-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/126/126-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/126/126-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/126/126-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/126/126-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/126/126-g-690x690.jpg',
         },
       ],
       features: {
@@ -1706,19 +1706,19 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/127/127-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/127/127-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/127/127-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/127/127-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/127/127-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/127/127-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/127/127-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/127/127-sg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/127/127-ss-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/127/127-ss-690x690.jpg',
         },
       ],
       features: {
@@ -1744,13 +1744,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/128/128-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/128/128-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/128/128-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/128/128-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/128/128-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/128/128-g-690x690.jpg',
         },
       ],
       features: {
@@ -1776,13 +1776,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/129/129-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/129/129-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/129/129-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/129/129-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/129/129-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/129/129-g-690x690.jpg',
         },
       ],
       features: {
@@ -1808,13 +1808,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/130/130-ss-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/130/130-ss-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/130/130-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/130/130-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/130/130-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/130/130-gs-690x690.jpg',
         },
       ],
       features: {
@@ -1840,13 +1840,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/131/131-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/131/131-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/131/131-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/131/131-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/131/131-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/131/131-g-690x690.jpg',
         },
       ],
       features: {
@@ -1872,17 +1872,17 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/133/133-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/133/133-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/133/133-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/133/133-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/133/133-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/133/133-gs-690x690.jpg',
         },
 
         {
-          image: '/assets/image/rings/wedding/133/133-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/133/133-sg-690x690.jpg',
         },
       ],
       features: {
@@ -1908,13 +1908,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/134/134-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/134/134-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/134/134-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/134/134-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/134/134-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/134/134-g-690x690.jpg',
         },
       ],
       features: {
@@ -1940,16 +1940,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/136/136-bsb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/136/136-bsb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/136/136-gsg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/136/136-gsg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/136/136-sbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/136/136-sbs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/136/136-sgs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/136/136-sgs-690x690.jpg',
         },
       ],
       features: {
@@ -1975,13 +1975,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/137/137-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/137/137-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/137/137-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/137/137-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/137/137-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/137/137-g-690x690.jpg',
         },
       ],
       features: {
@@ -2007,10 +2007,10 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/138/138-gbg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/138/138-gbg-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/138/138-sbs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/138/138-sbs-690x690.jpg',
         },
       ],
       features: {
@@ -2036,13 +2036,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/139/139-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/139/139-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/139/139-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/139/139-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/139/139-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/139/139-g-690x690.jpg',
         },
       ],
       features: {
@@ -2068,16 +2068,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/140/140-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/140/140-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/140/140-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/140/140-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/140/140-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/140/140-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/140/140-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/140/140-sg-690x690.jpg',
         },
       ],
       features: {
@@ -2103,16 +2103,16 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/141/141-bs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/141/141-bs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/141/141-gs-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/141/141-gs-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/141/141-sb-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/141/141-sb-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/141/141-sg-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/141/141-sg-690x690.jpg',
         },
       ],
       features: {
@@ -2138,13 +2138,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/142/142-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/142/142-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/142/142-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/142/142-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/142/142-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/142/142-g-690x690.jpg',
         },
       ],
       features: {
@@ -2170,13 +2170,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/143/143-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/143/143-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/143/143-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/143/143-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/143/143-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/143/143-g-690x690.jpg',
         },
       ],
       features: {
@@ -2202,13 +2202,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/144/144-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/144/144-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/144/144-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/144/144-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/144/144-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/144/144-g-690x690.jpg',
         },
       ],
       features: {
@@ -2234,13 +2234,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/145/145-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/145/145-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/145/145-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/145/145-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/145/145-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/145/145-g-690x690.jpg',
         },
       ],
       features: {
@@ -2266,13 +2266,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/146/146-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/146/146-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/146/146-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/146/146-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/146/146-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/146/146-g-690x690.jpg',
         },
       ],
       features: {
@@ -2298,13 +2298,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding/148/148-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/148/148-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/148/148-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/148/148-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding/148/148-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding/148/148-g-690x690.jpg',
         },
       ],
       features: {
@@ -2330,7 +2330,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/01-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/01-s-690x690.jpg',
         },
       ],
       features: {
@@ -2357,7 +2357,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/02-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/02-s-690x690.jpg',
         },
       ],
       features: {
@@ -2382,7 +2382,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/04-sb-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/04-sb-690x690.jpg',
         },
       ],
       features: {
@@ -2409,7 +2409,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/10-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/10-s-690x690.jpg',
         },
       ],
       features: {
@@ -2435,7 +2435,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/11-sg-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/11-sg-690x690.jpg',
         },
       ],
       features: {
@@ -2462,7 +2462,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/12-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/12-s-690x690.jpg',
         },
       ],
       features: {
@@ -2489,7 +2489,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/15-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/15-s-690x690.jpg',
         },
       ],
       features: {
@@ -2515,7 +2515,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/18-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/18-s-690x690.jpg',
         },
       ],
       features: {
@@ -2541,7 +2541,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/19-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/19-s-690x690.jpg',
         },
       ],
       features: {
@@ -2568,7 +2568,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/21-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/21-s-690x690.jpg',
         },
       ],
       features: {
@@ -2595,7 +2595,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/22-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/22-s-690x690.jpg',
         },
       ],
       features: {
@@ -2621,7 +2621,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/24-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/24-s-690x690.jpg',
         },
       ],
       features: {
@@ -2646,7 +2646,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/24-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/24-s-690x690.jpg',
         },
       ],
       features: {
@@ -2673,7 +2673,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/34-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/34-s-690x690.jpg',
         },
       ],
       features: {
@@ -2700,7 +2700,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/37-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/37-s-690x690.jpg',
         },
       ],
       features: {
@@ -2727,7 +2727,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/41-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/41-s-690x690.jpg',
         },
       ],
       features: {
@@ -2754,7 +2754,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/48-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/48-s-690x690.jpg',
         },
       ],
       features: {
@@ -2781,7 +2781,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/55-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/55-s-690x690.jpg',
         },
       ],
       features: {
@@ -2808,7 +2808,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/56-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/56-s-690x690.jpg',
         },
       ],
       features: {
@@ -2835,7 +2835,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/61-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/61-s-690x690.jpg',
         },
       ],
       features: {
@@ -2861,7 +2861,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/62-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/62-s-690x690.jpg',
         },
       ],
       features: {
@@ -2888,7 +2888,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/73-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/73-s-690x690.jpg',
         },
       ],
       features: {
@@ -2914,7 +2914,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/78-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/78-s-690x690.jpg',
         },
       ],
       features: {
@@ -2941,7 +2941,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/79-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/79-s-690x690.jpg',
         },
       ],
       features: {
@@ -2968,7 +2968,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/81-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/81-s-690x690.jpg',
         },
       ],
       features: {
@@ -2994,7 +2994,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/85-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/85-s-690x690.jpg',
         },
       ],
       features: {
@@ -3020,7 +3020,7 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/engagement/91-s-1270x1270.jpg',
+          image: '/assets/image/rings/engagement/91-s-690x690.jpg',
         },
       ],
       features: {
@@ -3047,13 +3047,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding-trios/0010/0010-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0010/0010-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0010/0010-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0010/0010-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0010/0010-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0010/0010-g-690x690.jpg',
         },
       ],
       features: {
@@ -3079,13 +3079,13 @@ const data = {
       noveltie: false,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding-trios/0015/0015-s-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0015/0015-s-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0015/0015-b-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0015/0015-b-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0015/0015-g-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0015/0015-g-690x690.jpg',
         },
       ],
       features: {
@@ -3111,22 +3111,22 @@ const data = {
       noveltie: true,
       colorImage: [
         {
-          image: '/assets/image/rings/wedding-trios/0020/0020-s1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0020/0020-s1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0020/0020-b1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0020/0020-b1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0020/0020-g1-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0020/0020-g1-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0020/0020-s2-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0020/0020-s2-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0020/0020-b2-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0020/0020-b2-690x690.jpg',
         },
         {
-          image: '/assets/image/rings/wedding-trios/0020/0020-g2-1270x1270.jpg',
+          image: '/assets/image/rings/wedding-trios/0020/0020-g2-690x690.jpg',
         },
       ],
       features: {

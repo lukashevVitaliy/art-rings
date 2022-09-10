@@ -8,7 +8,7 @@ export default function DeliveryAndPayment() {
       <Breadcrumbs title="ДОСТАВКА И ОПЛАТА" path={'/delivery-and-payment'} />
       <div
         className="w-full bg-center bg-no-repeat bg-cover mb-6 md:mb-12"
-        style={{ backgroundImage: "url('/assets/bg/delivery.png')" }}
+        style={{ backgroundImage: "url('/assets/bg/delivery_c.jpg')" }}
       >
         <div className="container mx-auto px-4 py-12 md:py-24 lg:py-48">
           <div className="w-2/3 md:w-3/5">

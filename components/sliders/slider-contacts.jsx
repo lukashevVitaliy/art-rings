@@ -42,25 +42,31 @@ export default function SliderContacts() {
       <SwiperSlide>
         <Image
           src="/assets/image/address/image-1.jpg"
+          blurDataURL="/assets/image/address/image-1.jpg"
           width={640}
           height={480}
           alt="image address"
+          placeholder="blur"
         />
       </SwiperSlide>
       <SwiperSlide>
         <Image
           src="/assets/image/address/image-2.jpg"
+          blurDataURL="/assets/image/address/image-2.jpg"
           width={640}
           height={480}
           alt="image address"
+          placeholder="blur"
         />
       </SwiperSlide>
       <SwiperSlide>
         <Image
           src="/assets/image/address/image-3.jpg"
+          blurDataURL="/assets/image/address/image-3.jpg"
           width={640}
           height={480}
           alt="image address"
+          placeholder="blur"
         />
       </SwiperSlide>
     </Swiper>

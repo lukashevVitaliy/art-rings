@@ -44,9 +44,11 @@ export default function Catalog() {
                 <a>
                   <Image
                     src={image}
+                    blurDataURL={image}
                     width={400}
                     height={300}
                     alt={title}
+                    placeholder="blur"
                     layout="responsive"
                   />
                   <div className="absolute bottom-2 w-full py-1 bg-slate-50/30 hover:bg-slate-50/100 transition-all">

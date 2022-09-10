@@ -28,7 +28,10 @@ function CartScreen() {
     toast.success('Товар удален...');
   };
   const removeItemsHandler = () => {
-    dispatch({ type: 'CART_RESET' });
+    if (state.cart.cartItems.length > 0) {
+      dispatch({ type: 'CART_RESET' });
+      toast.success('Товары удалены...');
+    }
   };
 
   // обновление кол-ва товара в корзине

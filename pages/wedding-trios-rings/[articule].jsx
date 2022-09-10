@@ -372,17 +372,21 @@ export default function WeddingTriosRingScreen(props) {
             <div className="w-full lg:hidden">
               <Image
                 src="/assets/image/discount/discount-cart.jpg"
+                blurDataURL="/assets/image/discount/discount-cart.jpg"
                 width={690}
                 height={84}
                 alt="banner discount"
+                placeholder="blur"
               />
             </div>
             <div className="hidden lg:block">
               <Image
                 src="/assets/image/discount/discount-cart-vertical.jpg"
+                blurDataURL="/assets/image/discount/discount-cart-vertical.jpg"
                 width={294}
                 height={595}
                 alt="banner discount"
+                placeholder="blur"
               />
             </div>
           </div>

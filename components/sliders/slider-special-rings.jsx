@@ -21,7 +21,7 @@ export default function SliderSpecialRings() {
       spaceBetween={0}
       slidesPerView={1}
       autoplay={true}
-      speed={6000}
+      speed={3000}
       freeMode={false}
       keyboard={{
         enabled: true,
@@ -35,7 +35,7 @@ export default function SliderSpecialRings() {
       <SwiperSlide className="mb-7 md:mb-10">
         <div className="w-full h-fit">
           <Image
-            src="/assets/image/home/banner.jpg"
+            src="/assets/image/home/banner_c.jpg"
             width={1920}
             height={655}
             alt="special ringth"
@@ -47,7 +47,7 @@ export default function SliderSpecialRings() {
       <SwiperSlide className="mb-7 md:mb-10">
         <div className="w-full h-fit">
           <Image
-            src="/assets/image/home/banner.jpg"
+            src="/assets/image/home/banner_c.jpg"
             width={1920}
             height={655}
             alt="special ringth"
@@ -59,7 +59,7 @@ export default function SliderSpecialRings() {
       <SwiperSlide className="mb-7 md:mb-10">
         <div className="w-full h-fit">
           <Image
-            src="/assets/image/home/banner.jpg"
+            src="/assets/image/home/banner_c.jpg"
             width={1920}
             height={655}
             alt="special ringth"

@@ -101,7 +101,7 @@ export default function SelectionEngagementRings() {
           </div>
           <div className="mx-auto w-1/2 md:w-full">
             <Image
-              src="/assets/image/rings/engagement/engagement-rings.jpg"
+              src="/assets/image/rings/engagement/engagement-rings-343x343.jpg"
               width={399}
               height={345}
               alt="wedding ring"

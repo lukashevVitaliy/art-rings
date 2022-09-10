@@ -15,8 +15,10 @@ export default function Favorites() {
   const favoritesRings = state.favorites.favoritesItems;
 
   const clickHandlerRemove = () => {
-    dispatch({ type: 'FAVORITES_RESET' });
-    toast.success('Данные удалены...');
+    if (state.favorites.favoritesItems.length > 0) {
+      dispatch({ type: 'FAVORITES_RESET' });
+      toast.success('Данные удалены...');
+    }
   };
 
   return (

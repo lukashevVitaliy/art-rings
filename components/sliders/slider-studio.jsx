@@ -44,42 +44,47 @@ export default function SliderStudio() {
       className="slider-studio"
     >
       <SwiperSlide className="mb-5">
-        <div className="text-center bg-gray-200">
+        <div className="text-center">
           <Image
-            src="/assets/image/studio/studio_1.png"
+            src="/assets/image/studio/studio_c_1.jpg"
             width={433}
             height={345}
             alt="image studio"
+            priority
           />
         </div>
       </SwiperSlide>
       <SwiperSlide className="mb-5">
-        <div className="text-center bg-gray-200">
+        <div className="text-center">
           <Image
-            src="/assets/image/studio/studio_2.png"
+            src="/assets/image/studio/studio_c_2.jpg"
             width={433}
             height={345}
             alt="image studio"
+            priority
           />
         </div>
       </SwiperSlide>
       <SwiperSlide className="mb-5">
-        <div className="text-center bg-gray-200">
+        <div className="text-center">
           <Image
-            src="/assets/image/studio/studio_3.png"
+            src="/assets/image/studio/studio_c_3.jpg"
             width={433}
             height={345}
             alt="image studio"
+            priority
           />
         </div>
       </SwiperSlide>
       <SwiperSlide className="mb-5">
-        <div className="text-center bg-gray-200">
+        <div className="text-center">
           <Image
-            src="/assets/image/studio/studio_4.png"
+            src="/assets/image/studio/studio_c_4.jpg"
+            blurDataURL="/assets/image/studio/studio_c_4.jpg"
             width={433}
             height={345}
             alt="image studio"
+            placeholder="blur"
           />
         </div>
       </SwiperSlide>

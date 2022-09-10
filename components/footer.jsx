@@ -66,11 +66,14 @@ export default function Footer() {
               Политика конфиденциальности
             </a>
           </Link>
-          <p className="text-xs text-gray-400 uppercase mb-3">
+          <p className="text-xs text-gray-400 uppercase mb-1">
             ИНН 672208547140
           </p>
-          <p className="text-xs">
-            Разработка сайта <br /> digital-foton
+          <p className="text-xs mb-2">
+            Дизайн сайта <br /> digital-foton
+          </p>
+          <p className="text-xs text-blue-900 font-semibold">
+            Разработка сайта <br /> Lukashev Vitaly
           </p>
         </div>
 

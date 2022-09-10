@@ -27,10 +27,11 @@ export default function SliderCard({ colorImage }) {
           <div className="flex items-center justify-center w-1/2 mx-auto">
             <Image
               src={item.image}
+              blurDataURL={item.image}
               width={280}
               height={280}
               alt="rings"
-              priority
+              placeholder="blur"
             />
           </div>
         </SwiperSlide>
