@@ -3,7 +3,7 @@ import React from 'react';
 import Breadcrumbs from '../components/breadcrumbs';
 import Layout from '../components/layout';
 
-export default function SelectionEngagementRings() {
+const SelectionEngagementRings = () => {
   return (
     <Layout title="Selection Engagement Rings">
       <Breadcrumbs
@@ -111,4 +111,6 @@ export default function SelectionEngagementRings() {
       </div>
     </Layout>
   );
-}
+};
+
+export default SelectionEngagementRings;

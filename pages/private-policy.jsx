@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumbs from '../components/breadcrumbs';
 import Layout from '../components/layout';
 
-export default function PrivatePolicy() {
+const PrivatePolicy = () => {
   return (
     <div>
       <Layout title="Private Policy">
@@ -70,4 +70,6 @@ export default function PrivatePolicy() {
       </Layout>
     </div>
   );
-}
+};
+
+export default PrivatePolicy;

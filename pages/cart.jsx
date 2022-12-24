@@ -16,8 +16,9 @@ import Layout from '../components/layout';
 import { Store } from '../utils/store';
 import SliderRingInCart from '../components/sliders/slider-ring-in-cart';
 import Modal from '../components/modal';
+import { memo } from 'react';
 
-function CartScreen() {
+const CartScreen = memo(() => {
   const [modalActive, setModalActive] = useState(false);
   const [modalResponse, setModalResponse] = useState(false);
   const { state, dispatch } = useContext(Store);
@@ -122,7 +123,7 @@ function CartScreen() {
     <Layout title="Cart Page">
       <Breadcrumbs title="Корзина" path={'/cart'} />
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between mb-3 md:mb-5 md:mb-10">
+        <div className="flex items-center justify-between mb-3  md:mb-10">
           <h2>Корзина</h2>
           <button
             className="text-xs md:text-sm lg:text-base font-normal md:font-semibold text-gray-400 left-5 uppercase hover:text-blue-900"
@@ -458,8 +459,9 @@ function CartScreen() {
       </div>
     </Layout>
   );
-}
+});
 
+CartScreen.displayName = 'CartScreen';
 export default CartScreen;
 
 CartScreen.propsTypes = {

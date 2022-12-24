@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Link from 'next/link';
 
-export default function Breadcrumbs({ path, title, title2 }) {
+const Breadcrumbs = memo(({ path, title, title2 }) => {
   return (
     <div className="container mx-auto px-4">
       <ul className="flex mb-5 text-xs text-gray-400 font-light list-none md:text-sm">
@@ -21,4 +21,7 @@ export default function Breadcrumbs({ path, title, title2 }) {
       </ul>
     </div>
   );
-}
+});
+
+Breadcrumbs.displayName = 'Breadcrumbs';
+export default Breadcrumbs;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, memo } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import { useForm } from 'react-hook-form';
@@ -11,7 +11,7 @@ import SliderWorkExamples from '../components/sliders/slider-work-examples';
 import Modal from '../components/modal';
 import Link from 'next/link';
 
-export default function RingsToOrder() {
+const RingsToOrder = memo(() => {
   const [modalResponse, setModalResponse] = useState(false);
 
   // валидация формы
@@ -345,7 +345,10 @@ export default function RingsToOrder() {
       </Modal>
     </Layout>
   );
-}
+});
+
+RingsToOrder.displayName = 'RingsToOrder';
+export default RingsToOrder;
 
 RingsToOrder.propsTypes = {
   submitHandler: PropTypes.func,

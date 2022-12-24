@@ -3,7 +3,7 @@ import React from 'react';
 import Breadcrumbs from '../components/breadcrumbs';
 import Layout from '../components/layout';
 
-export default function SelectionWeddingRings() {
+const SelectionWeddingRings = () => {
   return (
     <Layout title="Selection Wedding Rings">
       <Breadcrumbs
@@ -93,4 +93,6 @@ export default function SelectionWeddingRings() {
       </div>
     </Layout>
   );
-}
+};
+
+export default SelectionWeddingRings;

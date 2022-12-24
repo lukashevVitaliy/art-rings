@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import {
   FreeMode,
   Keyboard,
@@ -20,10 +20,23 @@ import 'swiper/css/thumbs';
 import 'swiper/css/effect-fade';
 import 'swiper/css/mousewheel';
 
-export default function SliderRingId({ images }) {
+const naviGation = {
+  nextEl: '.slider-ring-id-button-next',
+  prevEl: '.slider-ring-id-button-prev',
+};
+const navigationThum = {
+  nextEl: '.slider-ring-id-button-next',
+  prevEl: '.slider-ring-id-button-prev',
+};
+
+const SliderRingId = memo(({ images }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState({
     el: '#ring-slider-thumbs',
   });
+
+  const thumBs = {
+    swiper: thumbsSwiper,
+  };
 
   return (
     <div className="text-black">
@@ -38,10 +51,7 @@ export default function SliderRingId({ images }) {
             onSwiper={setThumbsSwiper}
             direction="vertical"
             slidesPerView={3}
-            navigation={{
-              nextEl: '.slider-ring-id-button-next',
-              prevEl: '.slider-ring-id-button-prev',
-            }}
+            navigation={naviGation}
             modules={[Thumbs, Keyboard, FreeMode, Navigation, EffectFade]}
             className="slider-ring-id-thumbnail w-full h-96 md:h-52 lg:h-96 text-center"
           >
@@ -68,14 +78,9 @@ export default function SliderRingId({ images }) {
           slidesPerView={1}
           spaceBetween={15}
           mousewheel={true}
-          navigation={{
-            nextEl: '.slider-ring-id-button-next',
-            prevEl: '.slider-ring-id-button-prev',
-          }}
+          navigation={navigationThum}
           grabCursor={true}
-          thumbs={{
-            swiper: thumbsSwiper,
-          }}
+          thumbs={thumBs}
           modules={[Thumbs, Navigation, Mousewheel]}
           className="w-5/6 max-h-max slider-ring-id-image"
         >
@@ -94,4 +99,7 @@ export default function SliderRingId({ images }) {
       </div>
     </div>
   );
-}
+});
+
+SliderRingId.displayName = 'SliderRingId';
+export default SliderRingId;

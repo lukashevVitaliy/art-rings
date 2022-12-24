@@ -1,12 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import CardRing from './card-ring';
 
-export default function RingsList({
-  rings,
-  firstContentIndex,
-  lastContentIndex,
-}) {
+const RingsList = memo(({ rings, firstContentIndex, lastContentIndex }) => {
   return (
     <div className="mb-4 border-b border-gray-200 pb-6 md:pb-12">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 justify-center">
@@ -16,7 +12,10 @@ export default function RingsList({
       </div>
     </div>
   );
-}
+});
+
+RingsList.displayName = 'RingsList';
+export default RingsList;
 
 // проверка данных props
 RingsList.propsTypes = {

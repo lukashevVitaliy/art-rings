@@ -6,7 +6,7 @@ import { BsFillClockFill } from 'react-icons/bs';
 import { MdLocationOn } from 'react-icons/md';
 import { MdMail } from 'react-icons/md';
 
-export default function HeaderLevel_1() {
+const HeaderLevel_1 = () => {
   return (
     <div className="flex items-center h-16 bg-gray-100 text-xs font-light py-3 mb-5 lg:text-sm">
       <div className="container mx-auto px-4 flex items-center justify-center lg:justify-between">
@@ -74,4 +74,6 @@ export default function HeaderLevel_1() {
       </div>
     </div>
   );
-}
+};
+
+export default HeaderLevel_1;

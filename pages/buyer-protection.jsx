@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumbs from '../components/breadcrumbs';
 import Layout from '../components/layout';
 
-export default function BuyerProtection() {
+const BuyerProtection = () => {
   return (
     <Layout title="Buyer Protection">
       <Breadcrumbs title="Доставка и Оплата" path={'/buyer-protection'} />
@@ -28,4 +28,6 @@ export default function BuyerProtection() {
       </div>
     </Layout>
   );
-}
+};
+
+export default BuyerProtection;

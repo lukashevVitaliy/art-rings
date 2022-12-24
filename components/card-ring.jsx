@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, memo } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 
@@ -8,7 +8,7 @@ import { BsFillHeartFill } from 'react-icons/bs';
 import { MdFiberNew } from 'react-icons/md';
 import { motion } from 'framer-motion';
 
-export default function CardRing({ ring, rings }) {
+const CardRing = memo(({ ring, rings }) => {
   const [active, setActive] = useState('');
   const { dispatch } = useContext(Store);
 
@@ -107,7 +107,10 @@ export default function CardRing({ ring, rings }) {
       )}
     </motion.div>
   );
-}
+});
+
+CardRing.displayName = 'CardRing';
+export default CardRing;
 
 // проверка данных props
 CardRing.propTypes = {

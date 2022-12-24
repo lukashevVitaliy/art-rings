@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export default function RatingReview({ star, setStar }) {
+const RatingReview = ({ star, setStar }) => {
   return (
     <div className="w-56">
       <div className="h-9 relative text-4xl inline-block before:content-['★★★★★'] before:block">
@@ -89,7 +89,7 @@ export default function RatingReview({ star, setStar }) {
       </div>
     </div>
   );
-}
+};
 
 RatingReview.propsTypes = {
   star: PropTypes.string.isRequired,

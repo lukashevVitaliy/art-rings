@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import { Autoplay, FreeMode, Keyboard, Mousewheel, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,13 +10,28 @@ import 'swiper/css/keyboard';
 import 'swiper/css/mousewheel';
 import 'swiper/css/navigation';
 
-export default function SliderReviews({ reviewsRings }) {
+const keyBoard = {
+  enabled: true,
+  onlyInViewport: true,
+  pageUpDown: true,
+};
+const breakPoints = {
+  640: {
+    slidesPerView: 1,
+  },
+  768: {
+    slidesPerView: 2,
+  },
+};
+const styles = {
+  '--swiper-navigation-color': '#020f59',
+  '--swiper-navigation-size': '25px',
+};
+
+const SliderReviews = memo(({ reviewsRings }) => {
   return (
     <Swiper
-      style={{
-        '--swiper-navigation-color': '#020f59',
-        '--swiper-navigation-size': '25px',
-      }}
+      style={styles}
       modules={[Keyboard, FreeMode, Autoplay, Mousewheel, Navigation]}
       navigation={true}
       spaceBetween={10}
@@ -25,20 +40,9 @@ export default function SliderReviews({ reviewsRings }) {
       speed={6000}
       loop={true}
       freeMode={false}
-      keyboard={{
-        enabled: true,
-        onlyInViewport: true,
-        pageUpDown: true,
-      }}
+      keyboard={keyBoard}
       mousewheel={true}
-      breakpoints={{
-        640: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-      }}
+      breakpoints={breakPoints}
       className="slider-reviews mb-5"
     >
       {reviewsRings.map(({ name, rating, message, createdAt }) => {
@@ -78,7 +82,10 @@ export default function SliderReviews({ reviewsRings }) {
       })}
     </Swiper>
   );
-}
+});
+
+SliderReviews.displayName = 'SliderReviews';
+export default SliderReviews;
 
 SliderReviews.propsTypes = {
   reviewsRings: PropTypes.arrayOf(

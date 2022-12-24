@@ -8,7 +8,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { BsFillClockFill } from 'react-icons/bs';
 import { MdMail } from 'react-icons/md';
 
-export default function About() {
+const About = () => {
   return (
     <Layout title="About">
       <Breadcrumbs title="О Нас" path={'/about'} />
@@ -119,4 +119,6 @@ export default function About() {
       </div>
     </Layout>
   );
-}
+};
+
+export default About;

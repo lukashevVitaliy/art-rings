@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Image from 'next/image';
 import { Autoplay, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-fade';
 
-export default function SliderRingInCart({ colorImage }) {
+const SliderRingInCart = memo(({ colorImage }) => {
   return (
     <Swiper
       modules={[Autoplay, EffectFade]}
@@ -34,4 +34,7 @@ export default function SliderRingInCart({ colorImage }) {
       ))}
     </Swiper>
   );
-}
+});
+
+SliderRingInCart.displayName = 'SliderRingInCart';
+export default SliderRingInCart;

@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState, memo } from 'react';
 import { Store } from '../../utils/store';
 
-export default function FilterSortRings() {
+const FilterSortRings = memo(() => {
   const [sort, setSort] = useState('По умолчанию');
   const { dispatch } = useContext(Store);
 
@@ -38,4 +38,7 @@ export default function FilterSortRings() {
       </select>
     </div>
   );
-}
+});
+
+FilterSortRings.displayName = 'FilterSortRings';
+export default FilterSortRings;

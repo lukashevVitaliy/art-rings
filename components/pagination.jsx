@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 
-export default function Pagination({ page, totalPages, nextPage, prevPage }) {
+const Pagination = memo(({ page, totalPages, nextPage, prevPage }) => {
   return (
     <div className="mb-6 md:mb-12 text-sm md:text-base text-center font-light text-gray-400">
       <button
@@ -23,7 +23,10 @@ export default function Pagination({ page, totalPages, nextPage, prevPage }) {
       </button>
     </div>
   );
-}
+});
+
+Pagination.displayName = 'Pagination';
+export default Pagination;
 
 // проверка данных props
 Pagination.propsTypes = {

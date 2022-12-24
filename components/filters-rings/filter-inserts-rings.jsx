@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState, memo } from 'react';
 import { Store } from '../../utils/store';
 
-export default function FilterInsertsRings() {
+const FilterInsertsRings = memo(() => {
   const [sort, setSort] = useState('Все');
   const { dispatch } = useContext(Store);
 
@@ -29,4 +29,7 @@ export default function FilterInsertsRings() {
       </select>
     </div>
   );
-}
+});
+
+FilterInsertsRings.displayName = 'FilterInsertsRings';
+export default FilterInsertsRings;

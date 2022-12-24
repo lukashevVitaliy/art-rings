@@ -3,7 +3,7 @@ import Breadcrumbs from '../components/breadcrumbs';
 import Layout from '../components/layout';
 import SliderStudio from '../components/sliders/slider-studio';
 
-export default function Studio() {
+const Studio = () => {
   return (
     <Layout title="Studio Page">
       <Breadcrumbs title="Студия" path={'/studio'} />
@@ -45,4 +45,6 @@ export default function Studio() {
       </div>
     </Layout>
   );
-}
+};
+
+export default Studio;

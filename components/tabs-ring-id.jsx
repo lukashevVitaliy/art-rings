@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import PropTypes from 'prop-types';
 import FormReviews from './form-reviews';
 import SliderReviews from './sliders/slider-reviews';
 import { motion } from 'framer-motion';
 
-export default function TabsRingId({ description, reviewsRings }) {
+const TabsRingId = memo(({ description, reviewsRings }) => {
   const [desc, setDesc] = useState(true);
   const [reviews, setReviews] = useState(false);
 
@@ -140,7 +140,10 @@ export default function TabsRingId({ description, reviewsRings }) {
       )}
     </div>
   );
-}
+});
+
+TabsRingId.displayName = 'TabsRingId';
+export default TabsRingId;
 
 // проверка данных props
 TabsRingId.propTypes = {

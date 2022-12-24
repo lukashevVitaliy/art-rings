@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { v4 as uuidv4 } from 'uuid';
@@ -46,7 +46,7 @@ const contacts = [
   },
 ];
 
-export default function Footer() {
+const Footer = memo(() => {
   return (
     <div className="container mx-auto px-4 py-7 md:py-14">
       <div className="grid grid-cols-2 gap-5 lg:grid-cols-5">
@@ -132,7 +132,7 @@ export default function Footer() {
         </div>
 
         <div className="order-5">
-          <p className="text-sm text-center font-light uppercase mb-3 lg:text-left lg:text-left">
+          <p className="text-sm text-center font-light uppercase mb-3 lg:text-left">
             КОНТАКТЫ
           </p>
           <ul className="flex flex-col items-start justify-between text-xs font-light text-gray-400 mb-4 md:text-sm">
@@ -157,4 +157,7 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+});
+
+Footer.displayName = 'Footer';
+export default Footer;

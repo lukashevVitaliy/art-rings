@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useMemo, memo } from 'react';
 import PropTypes from 'prop-types';
 import Breadcrumbs from '../../components/breadcrumbs';
 import FiltersRings from '../../components/filters-rings';
@@ -11,64 +11,76 @@ import Ring from '../../models/ring-model';
 import db from '../../utils/db';
 import { Store } from '../../utils/store';
 
-export default function WeddingRings({ rings }) {
+const WeddingRings = memo(({ rings }) => {
   // const { rings } = data;
   const { state } = useContext(Store);
 
-  const weddingRings = rings
-    .filter(
-      (item) =>
-        item.category === 'Обручальные кольца' &&
-        ((state.sort.sortGeneral === 'Новинки' && item.noveltie) ||
-          [
-            'По умолчанию',
-            'Не дорогие',
-            'Дорогие',
-            'Рейтинг (начиная с высокого)',
-            'Рейтинг (начиная с низкого)',
-          ].includes(state.sort.sortGeneral)) &&
-        (state.sort.sortPrice === 'Все' ||
-          (state.sort.sortPrice === 'до 50 000' &&
-            item.priceNew >= 0 &&
-            item.priceNew < 50000 &&
-            state.sort.sortPrice.includes('до 50 000')) ||
-          (state.sort.sortPrice === '50-70 000' &&
-            item.priceNew >= 50000 &&
-            item.priceNew < 70000 &&
-            state.sort.sortPrice.includes('50-70 000')) ||
-          (state.sort.sortPrice === '70-100 000' &&
-            item.priceNew >= 70000 &&
-            item.priceNew < 100000 &&
-            state.sort.sortPrice.includes('70-100 000')) ||
-          (state.sort.sortPrice === 'от 100 000' &&
-            item.priceNew >= 100000 &&
-            state.sort.sortPrice.includes('от 100 000')) ||
-          (state.sort.sortPrice === 'от 150 000' &&
-            item.priceNew >= 150000 &&
-            state.sort.sortPrice.includes('от 150 000'))) &&
-        (state.sort.sortInserts === 'Все' ||
-          (state.sort.sortInserts === 'С камнями' && item.insertInRings) ||
-          (state.sort.sortInserts === 'Без камней' && !item.insertInRings))
-    )
+  const weddingRings = useMemo(
+    () =>
+      rings
+        .filter(
+          (item) =>
+            item.category === 'Обручальные кольца' &&
+            ((state.sort.sortGeneral === 'Новинки' && item.noveltie) ||
+              [
+                'По умолчанию',
+                'Не дорогие',
+                'Дорогие',
+                'Рейтинг (начиная с высокого)',
+                'Рейтинг (начиная с низкого)',
+              ].includes(state.sort.sortGeneral)) &&
+            (state.sort.sortPrice === 'Все' ||
+              (state.sort.sortPrice === 'до 50 000' &&
+                item.priceNew >= 0 &&
+                item.priceNew < 50000 &&
+                state.sort.sortPrice.includes('до 50 000')) ||
+              (state.sort.sortPrice === '50-70 000' &&
+                item.priceNew >= 50000 &&
+                item.priceNew < 70000 &&
+                state.sort.sortPrice.includes('50-70 000')) ||
+              (state.sort.sortPrice === '70-100 000' &&
+                item.priceNew >= 70000 &&
+                item.priceNew < 100000 &&
+                state.sort.sortPrice.includes('70-100 000')) ||
+              (state.sort.sortPrice === 'от 100 000' &&
+                item.priceNew >= 100000 &&
+                state.sort.sortPrice.includes('от 100 000')) ||
+              (state.sort.sortPrice === 'от 150 000' &&
+                item.priceNew >= 150000 &&
+                state.sort.sortPrice.includes('от 150 000'))) &&
+            (state.sort.sortInserts === 'Все' ||
+              (state.sort.sortInserts === 'С камнями' && item.insertInRings) ||
+              (state.sort.sortInserts === 'Без камней' && !item.insertInRings))
+        )
 
-    // поиск по артикулу
-    .filter((item) =>
-      item.articule.toLowerCase().includes(state.search.searchItem)
-    )
-    // сортировка, согласно фильтрам
-    .sort(
-      (a, b) =>
-        (state.sort.sortGeneral === 'Не дорогие' && a.priceNew - b.priceNew) ||
-        (state.sort.sortGeneral === 'Дорогие' && b.priceNew - a.priceNew) ||
-        (state.sort.sortGeneral === 'Рейтинг (начиная с высокого)' &&
-          b.rating.length - a.rating.length) ||
-        (state.sort.sortGeneral === 'Рейтинг (начиная с низкого)' &&
-          a.rating.length - b.rating.length) ||
-        (state.sort.sortPrice === 'до 50 000' && a.priceNew - b.priceNew) ||
-        (state.sort.sortPrice === '50-70 000' && a.priceNew - b.priceNew) ||
-        (state.sort.sortPrice === 'от 100 000' && a.priceNew - b.priceNew) ||
-        (state.sort.sortPrice === 'от 150 000' && a.priceNew - b.priceNew)
-    );
+        // поиск по артикулу
+        .filter((item) =>
+          item.articule.toLowerCase().includes(state.search.searchItem)
+        )
+        // сортировка, согласно фильтрам
+        .sort(
+          (a, b) =>
+            (state.sort.sortGeneral === 'Не дорогие' &&
+              a.priceNew - b.priceNew) ||
+            (state.sort.sortGeneral === 'Дорогие' && b.priceNew - a.priceNew) ||
+            (state.sort.sortGeneral === 'Рейтинг (начиная с высокого)' &&
+              b.rating.length - a.rating.length) ||
+            (state.sort.sortGeneral === 'Рейтинг (начиная с низкого)' &&
+              a.rating.length - b.rating.length) ||
+            (state.sort.sortPrice === 'до 50 000' && a.priceNew - b.priceNew) ||
+            (state.sort.sortPrice === '50-70 000' && a.priceNew - b.priceNew) ||
+            (state.sort.sortPrice === 'от 100 000' &&
+              a.priceNew - b.priceNew) ||
+            (state.sort.sortPrice === 'от 150 000' && a.priceNew - b.priceNew)
+        ),
+    [
+      rings,
+      state.search.searchItem,
+      state.sort.sortGeneral,
+      state.sort.sortInserts,
+      state.sort.sortPrice,
+    ]
+  );
 
   // pagination
   const {
@@ -143,7 +155,10 @@ export default function WeddingRings({ rings }) {
       </div>
     </Layout>
   );
-}
+});
+
+WeddingRings.displayName = 'WeddingRings';
+export default WeddingRings;
 
 // получение всех колец из файла mongodb
 export async function getServerSideProps() {

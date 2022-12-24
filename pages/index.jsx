@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import Catalog from '../components/catalog';
 import DiamondGift from '../components/diamond-gift';
@@ -8,7 +8,7 @@ import SliderSpecialRings from '../components/sliders/slider-special-rings';
 import Ring from '../models/ring-model';
 import db from '../utils/db';
 
-export default function Home({ rings }) {
+const Home = memo(({ rings }) => {
   const noveltieList = rings.filter((item) => item.noveltie);
 
   return (
@@ -24,7 +24,10 @@ export default function Home({ rings }) {
       </div>
     </Layout>
   );
-}
+});
+
+Home.displayName = 'Home';
+export default Home;
 
 // получение всех колец из файла mongodb
 export async function getServerSideProps() {

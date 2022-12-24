@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default function HeaderLevel_3() {
+const HeaderLevel_3 = () => {
   return (
     <div className="container mx-auto px-4 mb-10 flex justify-center">
       <Link href="/" className="text-center justify-center">
@@ -16,4 +16,6 @@ export default function HeaderLevel_3() {
       </Link>
     </div>
   );
-}
+};
+
+export default HeaderLevel_3;

@@ -6,7 +6,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaTelegramPlane } from 'react-icons/fa';
 
-export default function SocialLinks() {
+const SocialLinks = () => {
   return (
     <div className="flex items-center justify-between w-full">
       <Link href="https://www.facebook.com">
@@ -38,4 +38,6 @@ export default function SocialLinks() {
       </Link>
     </div>
   );
-}
+};
+
+export default SocialLinks;

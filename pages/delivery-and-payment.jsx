@@ -2,7 +2,7 @@ import React from 'react';
 import Breadcrumbs from '../components/breadcrumbs';
 import Layout from '../components/layout';
 
-export default function DeliveryAndPayment() {
+const DeliveryAndPayment = () => {
   return (
     <Layout title="Delivery And Payment">
       <Breadcrumbs title="ДОСТАВКА И ОПЛАТА" path={'/delivery-and-payment'} />
@@ -27,4 +27,6 @@ export default function DeliveryAndPayment() {
       </div>
     </Layout>
   );
-}
+};
+
+export default DeliveryAndPayment;

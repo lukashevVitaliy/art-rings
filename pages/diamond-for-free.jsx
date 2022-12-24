@@ -4,7 +4,7 @@ import Breadcrumbs from '../components/breadcrumbs';
 import DiamondGift from '../components/diamond-gift';
 import Layout from '../components/layout';
 
-export default function DiamondForFree() {
+const DiamondForFree = () => {
   return (
     <Layout title="Diamond For Free">
       <Breadcrumbs title="Бриллиант в подарок" path={'/diamond-for-free'} />
@@ -41,4 +41,6 @@ export default function DiamondForFree() {
       </div>
     </Layout>
   );
-}
+};
+
+export default DiamondForFree;

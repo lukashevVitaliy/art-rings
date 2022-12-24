@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 import Layout from '../components/layout';
 
-export default function NotFondPage() {
+const NotFondPage = () => {
   const router = useRouter();
 
   useEffect(() => {
@@ -32,4 +32,6 @@ export default function NotFondPage() {
       </div>
     </Layout>
   );
-}
+};
+
+export default NotFondPage;

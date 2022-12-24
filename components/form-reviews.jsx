@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, memo } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { useForm } from 'react-hook-form';
@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export default function FormReviews() {
+const FormReviews = memo(() => {
   const [star, setStar] = useState('');
   const [modalResponse, setModalResponse] = useState(false);
   const { query } = useRouter();
@@ -138,7 +138,10 @@ export default function FormReviews() {
       </Modal>
     </form>
   );
-}
+});
+
+FormReviews.displayName = 'FormReviews';
+export default FormReviews;
 
 FormReviews.propsTypes = {
   submitHandler: PropTypes.func,

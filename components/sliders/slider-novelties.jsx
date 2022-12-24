@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { FreeMode, Keyboard, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PropTypes from 'prop-types';
 import CardRing from '../card-ring';
-// import data from '../../utils/data';
 
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -11,39 +10,45 @@ import 'swiper/css/keyboard';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-export default function SliderNovelties({ noveltieList }) {
+const keyBoard = {
+  enabled: true,
+  onlyInViewport: true,
+  pageUpDown: true,
+};
+const pagiNation = {
+  clickable: true,
+  type: 'progressbar',
+};
+
+const breakPoints = {
+  640: {
+    slidesPerView: 1,
+  },
+  768: {
+    slidesPerView: 2,
+  },
+  1024: {
+    slidesPerView: 3,
+  },
+};
+const styles = {
+  '--swiper-navigation-color': '#2563eb',
+  '--swiper-navigation-size': '25px',
+};
+
+const SliderNovelties = memo(({ noveltieList }) => {
   return (
     <Swiper
-      style={{
-        '--swiper-navigation-color': '#2563eb',
-        '--swiper-navigation-size': '25px',
-      }}
+      style={styles}
       modules={[Keyboard, FreeMode, Navigation, Pagination]}
       spaceBetween={25}
       slidesPerView="auto"
       freeMode={false}
-      keyboard={{
-        enabled: true,
-        onlyInViewport: true,
-        pageUpDown: true,
-      }}
+      keyboard={keyBoard}
       navigation={true}
-      pagination={{
-        clickable: true,
-        type: 'progressbar',
-      }}
+      pagination={pagiNation}
       loop={true}
-      breakpoints={{
-        640: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-      }}
+      breakpoints={breakPoints}
       className="slider-novelties relative"
     >
       {noveltieList.map((ring) => (
@@ -53,7 +58,10 @@ export default function SliderNovelties({ noveltieList }) {
       ))}
     </Swiper>
   );
-}
+});
+
+SliderNovelties.displayName = 'SliderNovelties';
+export default SliderNovelties;
 
 // проверка данных props
 SliderNovelties.propTypes = {

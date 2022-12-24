@@ -9,7 +9,7 @@ import { MdMail } from 'react-icons/md';
 import SocialLinks from '../components/social-links';
 import SliderContacts from '../components/sliders/slider-contacts';
 
-export default function Contacts() {
+const Contacts = () => {
   return (
     <Layout title="Contacts">
       <Breadcrumbs title="Контакты" path={'/contacts'} />
@@ -109,4 +109,6 @@ export default function Contacts() {
       </div>
     </Layout>
   );
-}
+};
+
+export default Contacts;

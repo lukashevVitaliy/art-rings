@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Modal({ active, setActive, children }) {
+const Modal = ({ active, setActive, children }) => {
   useEffect(() => {
     // ширина всего окна - ширина Body
     let paddingOffset = window.innerWidth - document.body.offsetWidth + 'px';
@@ -49,7 +49,9 @@ export default function Modal({ active, setActive, children }) {
       </div>
     </div>
   );
-}
+};
+
+export default Modal;
 
 Modal.propsTypes = {
   active: PropTypes.bool.isRequired,

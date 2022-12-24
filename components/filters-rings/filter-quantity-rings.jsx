@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 
-export default function FilterQuantityRings() {
+const FilterQuantityRings = memo(() => {
   const [qty, setQty] = useState('');
-  console.log(qty);
 
   return (
     <div className="flex">
@@ -23,4 +22,7 @@ export default function FilterQuantityRings() {
       </select>
     </div>
   );
-}
+});
+
+FilterQuantityRings.displayName = 'FilterQuantityRings';
+export default FilterQuantityRings;

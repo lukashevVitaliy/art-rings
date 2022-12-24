@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React, { useContext } from 'react';
+import React, { useContext, memo } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
@@ -10,7 +10,7 @@ import Pagination from '../components/pagination';
 import RingsList from '../components/rings-list';
 import { Store } from '../utils/store';
 
-export default function Favorites() {
+const Favorites = memo(() => {
   const { state, dispatch } = useContext(Store);
   const favoritesRings = state.favorites.favoritesItems;
 
@@ -52,7 +52,10 @@ export default function Favorites() {
       </div>
     </Layout>
   );
-}
+});
+
+Favorites.displayName = 'Favorites';
+export default Favorites;
 
 Favorites.propsTypes = {
   state: PropTypes.object,
